@@ -1,0 +1,36 @@
+@import url('http://fonts.goggleapis.com/css2?family=ui-monospace:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'monospace', monospace;
+  background-color: rgb(161, 100, 223);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 20px;
+}
+
+.counter {
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+@media (max-width: 500px) {
+  body {
+    flex-direction: column;
+  }
+}
